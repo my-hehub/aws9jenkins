@@ -12,6 +12,7 @@ spec:
       labels:
         app: my-app
     spec:
+      serviceAccountName: jenkins 
       containers:
         - name: my-container
           image: nginx
